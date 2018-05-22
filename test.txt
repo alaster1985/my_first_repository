@@ -1,5 +1,5 @@
 <?php
-
+lbnlhbnblhbkjnhb
 
 function brilliant ($a) {
 if (($a % 2 == 1) && ($a >= 1)){ 
