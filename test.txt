@@ -1,5 +1,5 @@
 <?php
-
+echo "asd";
 
 function brilliant ($a) {
 if (($a % 2 == 1) && ($a >= 1)){ 
