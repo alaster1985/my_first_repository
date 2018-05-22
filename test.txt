@@ -1,0 +1,26 @@
+<?php
+
+
+function brilliant ($a) {
+if (($a % 2 == 1) && ($a >= 1)){ 
+$n = $d = $p = 1;
+$m = ($a-1)/2;
+$s = $a - 2;
+while ($m >= 0) {
+	for ($i = $n; $i <= $m; $i++) {
+		echo " ";
+	}
+	echo str_repeat("*", $d)."\n<br>";
+	$d = $d + 2;
+	$m--;
+}
+for ($q = $a-2; $q >= 0; $q=$q-2){
+  echo str_repeat(" ", $p);
+  $p = $p + 1;
+  echo str_repeat("*", $s)."\n<br>";
+$s = $s - 2;
+}
+}
+else echo "error";
+}
+echo brilliant (51);
